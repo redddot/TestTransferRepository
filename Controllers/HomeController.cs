@@ -8,6 +8,10 @@ namespace TestTransferRepo.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        ///  this is inde method of home controller
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
